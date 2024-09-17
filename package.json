@@ -1,9 +1,8 @@
 {
   "name": "dt207g-moment4-webbplats",
   "version": "1.0.0",
-  "main": "index.html",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel index.html",
     "build": "parcel build"
   },
   "keywords": [],
@@ -15,5 +14,6 @@
   },
   "devDependencies": {
     "live-server": "^1.2.2"
-  }
+  },
+  "proxy": "http://localhost:3008"
 }
