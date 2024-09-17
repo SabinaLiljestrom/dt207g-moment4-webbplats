@@ -35,6 +35,7 @@ loginForm.addEventListener('submit', async (event) => {
         });
 
         const data = await response.json();
+    
         
         // Kontrollera om token finns
         if (data.token) {
